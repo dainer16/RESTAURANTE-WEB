@@ -6,4 +6,4 @@ routes_Home = Blueprint("routes_Home", __name__)
 @routes_Home.route('/IndexHome', methods=['GET'] )
 def IndexHome():
     
-    return render_template('/templates/Home.html')
+    return render_template('/Main/Home.html')
